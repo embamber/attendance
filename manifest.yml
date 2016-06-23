@@ -1,9 +1,9 @@
 ---
 applications:
-- name: NodeJS_Simple_1
+- name: attendance-tracker
   runtime: node08
-  memory: 64M
+  memory: 1GB
   instances: 1
-  command: node app.js    #The command to use to start the application
-  host: NodeJS_Simple_1-${random-word}
+  command: npm start    #The command to use to start the application
+  host: attendance-tracker-${random-word}
   path: "."
