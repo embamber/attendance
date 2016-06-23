@@ -1,0 +1,28 @@
+/****************************************************************************************
+*
+*  @version (.1)
+*  @date (2016)
+*
+*****************************************************************************************/
+/****************************************************************************************
+*
+*  @version (.1)
+*  @date (2016)
+*
+*****************************************************************************************/
+#dashboard {
+  background-color: #00223e;
+  background: -webkit-gradient(linear, left top, left bottom, from(#00223e), to(#ffa17f));
+  background: -webkit-linear-gradient(top, #00223e, #ffa17f);
+  background: -moz-linear-gradient(top, #00223e, #ffa17f);
+  background: -ms-linear-gradient(top, #00223e, #ffa17f);
+  background: -o-linear-gradient(top, #00223e, #ffa17f);
+}
+#dashboard ._title {
+  color: #FFF;
+}
+#dashboard ._container {
+  width: 10em;
+  padding: 0 1em;
+  margin: 3em auto 0;
+}

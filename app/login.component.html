@@ -1,0 +1,24 @@
+<div id="login">
+    <div class="_container">
+        <div class="_transparent"></div>
+        <div class="_title">{{ title }}</div>
+        <div class="_row">
+            <div class="input-field col s12">
+                <label for="email">Intranet ID:</label>
+                <input [(ngModel)]="user.email" id="email" type="email" class="validate">
+            </div>
+        </div>
+        <div class="_row">
+            <div class="input-field col s12">
+                <label for="password">Password:</label>
+                <input [(ngModel)]="user.password" id="password" type="password" class="validate">
+            </div>
+        </div>
+        <br>
+        <a href="https://w3.ibm.com/password" target="_blank">Forgot password?</a>
+        <br><br>
+        <span class="_error">{{ errorMsg }}</span>
+        <br><br>
+        <button (click)="login()" class="btn waves-effect waves-light" type="submit" name="action">Login</button>
+    </div>
+</div>

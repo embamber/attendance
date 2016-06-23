@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Attendance Tracker</title>
+    <meta charset="UTF-8">
+    <meta name="description" content="Attendance tracker for Michigan CIC offices">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <link rel="icon" type="image/png" href="favicon.png">
+    <link href='https://fonts.googleapis.com/css?family=Fredericka+the+Great' rel='stylesheet' type='text/css'>
+    <link href="css/base.css" rel="stylesheet" type="text/css">
+    <!-- scripts -->
+    <script src="node_modules/core-js/client/shim.min.js"></script>
+    <script src="node_modules/zone.js/dist/zone.js"></script>
+    <script src="node_modules/reflect-metadata/Reflect.js"></script>
+    <script src="node_modules/systemjs/dist/system.src.js"></script>
+    <script src="systemjs.config.js"></script>
+    <script>
+      System.import('app').catch(function(err){ console.error(err); });
+    </script>
+  </head>
+  <body>
+    <base href=".">
+    <app-content class="_main">
+      <div class="_loading-title">Loading...</h1>
+    </app-content>
+  </body>
+</html>
